@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b71c9681-e91e-42a5-ad7f-9f02d6497828" name="Default Changelist" comment="updated project with retirement Activation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/MusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drisyaHome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/drisyaHome.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/AnnouncementDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/AnnouncementDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/model/EmployeeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/model/EmployeeSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/model/HomeTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/model/HomeTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_ActionSSO.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login_ActionSSO.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/model/HomeTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/model/HomeTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/service/home/HomeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/federal/drisyaHome/service/home/HomeService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2MOodX2qUPZTiU0LEYNUVvQJDkQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Drisya_new_UI_01_03_2023\src\main\java\com\federal\drisyaHome\dao\home" />
+      <recent name="D:\Drisya_new_UI_01_03_2023\src\main\java\com\federal\drisyaHome\model" />
+      <recent name="D:\Drisya_new_UI_01_03_2023\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\Drisya_new_UI_01_03_2023\src\main\webapp\resources\js" />
+      <recent name="D:\Drisya_new_UI_01_03_2023\src\main\webapp\resources\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DrisyaHomeApplication (1)">
+    <configuration name="DrisyaHomeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="drisyaHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.federal.drisyaHome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.federal.drisyaHome.DrisyaHomeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrisyaHomeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="git" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.federal.drisyaHome.DrisyaHomeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DrisyaHomeApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b71c9681-e91e-42a5-ad7f-9f02d6497828" name="Default Changelist" comment="" />
+      <created>1677648077899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677648077899</updated>
+      <workItem from="1677648079679" duration="16358000" />
+      <workItem from="1677731594540" duration="44195000" />
+      <workItem from="1677905391455" duration="43512000" />
+      <workItem from="1678112872346" duration="12496000" />
+      <workItem from="1678163143540" duration="14442000" />
+      <workItem from="1678196343968" duration="87000" />
+      <workItem from="1678196449896" duration="732000" />
+      <workItem from="1678250778196" duration="12473000" />
+      <workItem from="1678298439032" duration="407000" />
+      <workItem from="1678335872035" duration="19039000" />
+      <workItem from="1678379418721" duration="22484000" />
+      <workItem from="1678505103693" duration="16976000" />
+      <workItem from="1678601936476" duration="11628000" />
+      <workItem from="1678635195422" duration="3365000" />
+      <workItem from="1678681966221" duration="32044000" />
+      <workItem from="1679027079141" duration="8532000" />
+      <workItem from="1679049807429" duration="2237000" />
+      <workItem from="1679123064832" duration="442000" />
+      <workItem from="1679291956215" duration="8229000" />
+      <workItem from="1679470975980" duration="12670000" />
+      <workItem from="1679544600557" duration="8517000" />
+      <workItem from="1679631767482" duration="2354000" />
+      <workItem from="1680168669200" duration="1429000" />
+      <workItem from="1680237420314" duration="1516000" />
+      <workItem from="1680331197805" duration="2056000" />
+      <workItem from="1680604333521" duration="1338000" />
+      <workItem from="1680669010379" duration="497000" />
+      <workItem from="1681364460000" duration="396000" />
+      <workItem from="1681706252109" duration="1266000" />
+      <workItem from="1681792047620" duration="594000" />
+      <workItem from="1682052761934" duration="1186000" />
+      <workItem from="1682256687973" duration="594000" />
+      <workItem from="1682495299636" duration="3391000" />
+      <workItem from="1682742397503" duration="726000" />
+      <workItem from="1683003046180" duration="2450000" />
+      <workItem from="1683186652740" duration="8889000" />
+      <workItem from="1683609260893" duration="3220000" />
+      <workItem from="1683802804208" duration="3921000" />
+      <workItem from="1684210842639" duration="1261000" />
+      <workItem from="1684474606032" duration="1195000" />
+      <workItem from="1684566419425" duration="5597000" />
+      <workItem from="1684734534200" duration="3481000" />
+      <workItem from="1684818284583" duration="10289000" />
+      <workItem from="1685011723438" duration="26000" />
+      <workItem from="1685336977817" duration="107000" />
+      <workItem from="1685422913755" duration="1856000" />
+      <workItem from="1685512810987" duration="605000" />
+      <workItem from="1685791891605" duration="7184000" />
+      <workItem from="1686203390447" duration="1231000" />
+      <workItem from="1686285560075" duration="1401000" />
+      <workItem from="1686806727327" duration="1973000" />
+      <workItem from="1686986926983" duration="147000" />
+      <workItem from="1694168375900" duration="4323000" />
+    </task>
+    <task id="LOCAL-00001" summary="reference page">
+      <created>1677673495960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677673495960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="reference page updated">
+      <created>1677742081411</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677742081411</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated">
+      <created>1677750197512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677750197512</updated>
+    </task>
+    <task id="LOCAL-00004" summary="home page updated">
+      <created>1677760636700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677760636700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="home page updated">
+      <created>1677819653779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677819653779</updated>
+    </task>
+    <task id="LOCAL-00006" summary="home page and reference page updated">
+      <created>1677847223988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677847223988</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home page and reference page updated">
+      <created>1677904558970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677904558970</updated>
+    </task>
+    <task id="LOCAL-00008" summary="view">
+      <created>1677904989654</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677904989654</updated>
+    </task>
+    <task id="LOCAL-00009" summary="home">
+      <created>1677905433284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677905433284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="home blurbs updated">
+      <created>1677907195254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677907195254</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated">
+      <created>1677921659424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677921659424</updated>
+    </task>
+    <task id="LOCAL-00012" summary="home page updated">
+      <created>1677922943371</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677922943371</updated>
+    </task>
+    <task id="LOCAL-00013" summary="home page updated">
+      <created>1677930385428</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930385428</updated>
+    </task>
+    <task id="LOCAL-00014" summary="reference updated">
+      <created>1677933234780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677933234780</updated>
+    </task>
+    <task id="LOCAL-00015" summary="home page updated">
+      <created>1678076902113</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678076902113</updated>
+    </task>
+    <task id="LOCAL-00016" summary="home page updated">
+      <created>1678077093613</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678077093613</updated>
+    </task>
+    <task id="LOCAL-00017" summary="home page updated">
+      <created>1678078106793</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678078106793</updated>
+    </task>
+    <task id="LOCAL-00018" summary="miscellenous updated">
+      <created>1678096298692</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678096298692</updated>
+    </task>
+    <task id="LOCAL-00019" summary="home miscellenous updated">
+      <created>1678115658875</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115658875</updated>
+    </task>
+    <task id="LOCAL-00020" summary="home miscellenous updated">
+      <created>1678116231071</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678116231071</updated>
+    </task>
+    <task id="LOCAL-00021" summary="home miscellenous updated">
+      <created>1678116806256</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678116806256</updated>
+    </task>
+    <task id="LOCAL-00022" summary="home page blurbs and miscelleneous updated">
+      <created>1678126268718</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678126268718</updated>
+    </task>
+    <task id="LOCAL-00023" summary="json miscelleneous">
+      <created>1678178242340</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678178242340</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated">
+      <created>1678179459623</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678179459623</updated>
+    </task>
+    <task id="LOCAL-00025" summary=" miscelleneous updated">
+      <created>1678180334648</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678180334648</updated>
+    </task>
+    <task id="LOCAL-00026" summary=" miscelleneous updated">
+      <created>1678196554503</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678196554503</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated">
+      <created>1678296147829</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678296147829</updated>
+    </task>
+    <task id="LOCAL-00028" summary="bug fix updated">
+      <created>1678298746059</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678298746059</updated>
+    </task>
+    <task id="LOCAL-00029" summary="last Update">
+      <created>1678336719256</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678336719256</updated>
+    </task>
+    <task id="LOCAL-00030" summary="lastest Updated">
+      <created>1678342260045</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678342260045</updated>
+    </task>
+    <task id="LOCAL-00031" summary="blurbs and miscelleneous updated">
+      <created>1678344186720</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678344186720</updated>
+    </task>
+    <task id="LOCAL-00032" summary="blurbs updated">
+      <created>1678352834545</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678352834545</updated>
+    </task>
+    <task id="LOCAL-00033" summary="news and events updated">
+      <created>1678424252327</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678424252327</updated>
+    </task>
+    <task id="LOCAL-00034" summary="updated code">
+      <created>1678437235837</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678437235837</updated>
+    </task>
+    <task id="LOCAL-00035" summary="updated">
+      <created>1678438088093</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678438088093</updated>
+    </task>
+    <task id="LOCAL-00036" summary="updated">
+      <created>1678438473160</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1678438473160</updated>
+    </task>
+    <task id="LOCAL-00037" summary="blurbs issue fixed">
+      <created>1678553234614</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1678553234614</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bug fix and logout added">
+      <created>1678619941037</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1678619941037</updated>
+    </task>
+    <task id="LOCAL-00039" summary="All bugs fixed">
+      <created>1678683204694</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1678683204694</updated>
+    </task>
+    <task id="LOCAL-00040" summary="updated project">
+      <created>1678965426189</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1678965426189</updated>
+    </task>
+    <task id="LOCAL-00041" summary="updated project with retirement Activation">
+      <created>1678965498600</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1678965498600</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reference page updated" />
+    <MESSAGE value="home page and reference page updated" />
+    <MESSAGE value="view" />
+    <MESSAGE value="home" />
+    <MESSAGE value="home blurbs updated" />
+    <MESSAGE value="reference updated" />
+    <MESSAGE value="home page updated" />
+    <MESSAGE value="miscellenous updated" />
+    <MESSAGE value="home miscellenous updated" />
+    <MESSAGE value="home page blurbs and miscelleneous updated" />
+    <MESSAGE value="json miscelleneous" />
+    <MESSAGE value=" miscelleneous updated" />
+    <MESSAGE value="bug fix updated" />
+    <MESSAGE value="last Update" />
+    <MESSAGE value="lastest Updated" />
+    <MESSAGE value="blurbs and miscelleneous updated" />
+    <MESSAGE value="blurbs updated" />
+    <MESSAGE value="news and events updated" />
+    <MESSAGE value="updated code" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="blurbs issue fixed" />
+    <MESSAGE value="bug fix and logout added" />
+    <MESSAGE value="All bugs fixed" />
+    <MESSAGE value="updated project" />
+    <MESSAGE value="updated project with retirement Activation" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project with retirement Activation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1478" height="231" key="GridCell.Tab.0.bottom" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.0.center" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.0.left" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.0.right" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.1.bottom" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.1.center" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.1.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.1.left" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.1.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state width="1478" height="231" key="GridCell.Tab.1.right" timestamp="1686979427117">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1478" height="231" key="GridCell.Tab.1.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686979427117" />
+    <state width="1478" height="231" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1686806968398" />
+    <state x="478" y="143" width="579" height="530" key="find.popup" timestamp="1694168488885">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="478" y="143" width="579" height="530" key="find.popup/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1686986968813" />
+    <state x="478" y="143" width="579" height="530" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1694168488885" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/reference.jsp</url>
+          <line>153</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>705</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>700</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>702</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>574</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>576</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/service/home/HomeService.java</url>
+          <line>580</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/home/MusicDao.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/RedisDao.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/RedisDao.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/federal/drisyaHome/dao/RedisDao.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
